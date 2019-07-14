@@ -9,11 +9,5 @@ namespace MVCVue.Models
 
         public string LastName { get; set; }
     }
-    public class PersonDataModel
-    {
-        public string name { get; set; }
 
-        public string email { get; set; }
-
-    }
 }
