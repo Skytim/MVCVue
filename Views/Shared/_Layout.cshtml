@@ -10,6 +10,11 @@
     <script src="~/vendor/vue/dist/vue.js"></script>
     <script src="~/vendor/bootstrap-vue/dist/bootstrap-vue.min.js"></script>
     <script src="~/vendor/axios/dist/axios.js"></script>
+    <script>
+     var baseInstance = axios.create({
+       baseURL: window.location.origin
+     });
+    </script>
 </head>
 <body>
     <header>

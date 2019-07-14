@@ -50,13 +50,14 @@
             app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Scripts")),
-                RequestPath = new PathString("~/scripts")
+                RequestPath = new PathString("/scripts")
             });
             app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "node_modules")),
-                RequestPath = new PathString("~/vendor")
+                RequestPath = new PathString("/vendor")
             });
+
             app.UseCookiePolicy();
 
             app.UseMvc(routes =>
