@@ -4,9 +4,10 @@ ASP.NET dotnet Core MVC with Vue Example
 ASP.NET dotnet Core MVC Project with Vue.
 
 Includes build 
-1. [BootStrap](https://getbootstrap.com/), 
-2. [BootStrap-Vue](https://bootstrap-vue.js.org/)
-3. [axios](https://github.com/axios/axios) 
+1. [Vue](https://vuejs.org/)
+2. [BootStrap](https://getbootstrap.com/), 
+3. [BootStrap-Vue](https://bootstrap-vue.js.org/)
+4. [axios](https://github.com/axios/axios) 
 
 
 
