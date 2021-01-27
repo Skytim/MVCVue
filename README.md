@@ -3,7 +3,7 @@ ASP.NET Core MVC Project with Vue.
 
 Includes build 
 1. [Vue 2.x](https://vuejs.org/)
-2. [BootStrap](https://getbootstrap.com/), 
+2. [BootStrap](https://getbootstrap.com/)
 3. [BootStrap-Vue](https://bootstrap-vue.js.org/)
 4. [axios](https://github.com/axios/axios) 
 
