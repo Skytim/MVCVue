@@ -1,10 +1,8 @@
-ASP.NET dotnet Core MVC with Vue Example
+ASP.NET Core MVC Project with Vue.
 =================
 
-ASP.NET dotnet Core MVC Project with Vue.
-
 Includes build 
-1. [Vue](https://vuejs.org/)
+1. [Vue 2.x](https://vuejs.org/)
 2. [BootStrap](https://getbootstrap.com/), 
 3. [BootStrap-Vue](https://bootstrap-vue.js.org/)
 4. [axios](https://github.com/axios/axios) 
@@ -13,7 +11,7 @@ Includes build
 
 **Install tools:**
 
-1. [.Net core 2.2](https://dotnet.microsoft.com/download)
+1. [.Net core 3.1](https://dotnet.microsoft.com/download)
 2. [NodeJs](https://nodejs.org/en/) >10
 
 
@@ -34,5 +32,7 @@ dotnet restore
 To run a local copy in development mode, execute:
 ```
 dotnet run
+or
+dotnet watch run
 ```
 Go to http://localhost:5000 in your browser.
